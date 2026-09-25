@@ -6,3 +6,6 @@ mean_mpg <-mean(mtcars$mpg)
 
 #print the mean mpg
 mean_mpg
+
+#plot wt vs mpg
+plot(mtcars$wt, mtcars$mpg)
